@@ -106,6 +106,10 @@ npx stylelint "**/*.{css,scss}"
 npx eslint "**/*.{js,jsx}"
 ```
 
+## Rails API Backend
+
+This React app communicates with a backend API built using Ruby on Rails. You can find the Rails API repository [Ruby on Rails back-end](https://github.com/kazim110/hello-rails-back-end)
+
 ### Deployment
 
 It does not apply because it is a template.
