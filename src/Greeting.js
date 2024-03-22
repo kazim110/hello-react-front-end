@@ -1,0 +1,32 @@
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { fetchGreeting } from './greetingSlice';
+
+function Greeting() {
+  const dispatch = useDispatch();
+  const greeting = useSelector((state) => state.greeting);
+  const status = useSelector((state) => state.greeting.status);
+  const error = useSelector((state) => state.greeting.error);
+
+  useEffect(() => {
+    if (status === 'idle') {
+      dispatch(fetchGreeting());
+    }
+  }, [status, dispatch]);
+
+  return (
+    <div>
+      {status === 'loading' && <div>Loading...</div>}
+      {status === 'succeeded' && <div>{greeting}</div>}
+      {status === 'failed' && (
+        <div>
+          Error:
+          {' '}
+          {error}
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default Greeting;

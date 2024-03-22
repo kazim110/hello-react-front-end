@@ -1,70 +1,169 @@
-# Getting Started with Create React App
+# Hello-React-Front-End
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
+<div align="center">
+  <h3><b>Hello React Front End</b></h3>
+</div>
+# 📗 Table of Contents
 
-## Available Scripts
+- [Hello-React-Front-End](#hello-react-front-end)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 Hello React Front End. ](#-hello-react-front-end-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Run linter](#run-linter)
+    - [Deployment](#deployment)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
+  - [📝 Project journal ](#-project-journal-)
 
-In the project directory, you can run:
+# 📖 Hello React Front End. <a name="about-project"></a>
 
-### `npm start`
+The "Hello React Front End" project serves as a blueprint for developing full-stack applications. This component is the frontend, created using React.js and Redux, designed to be integrated with the frontend found here:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[React Redux Front-end](https://github.com/kazim110/hello-react-front-end.git)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run build`
+  <ul>
+    <li><a href="https://react.dev/">React.js 18.2.0</a></li>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Key Features <a name="key-features"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **It uses Redux to fetch data from a Ruby on Rails API.**
+- **A template for creating future projects.**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Getting Started <a name="getting-started"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get a local copy up and running, follow these steps.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Prerequisites
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+In order to run this project you need:
 
-## Learn More
+[Install Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+cd my-folder
+git clone https://github.com/kazim110/hello-react-front-end.git
+```
 
-### Code Splitting
+### Install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Install all necessary dependencies listed in the `Gemfile`.
 
-### Analyzing the Bundle Size
+```sh
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Usage
 
-### Making a Progressive Web App
+To run the project, navigate to the project directory and execute the following command:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```sh
+npm start
+```
 
-### Advanced Configuration
+### Run tests
+Tests will be available soon!
+<!-- To execute all test suites in the application, use the following command in your terminal:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```sh
+rspec
+``` -->
+
+### Run linter
+
+To run linters, run the following command:
+
+```sh
+npx stylelint "**/*.{css,scss}"
+```
+
+```sh
+npx eslint "**/*.{js,jsx}"
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+It does not apply because it is a template.
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Julio Quezada**
+
+- GitHub: [@Kazim Mohammadi](https://github.com/kazim110)
+- LinkedIn: [Kazim Mohammadi](https://www.linkedin.com/in/kazim-mohammadi/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **You may use this template to create your own projects.**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, [issues](https://github.com/kazim110/hello-react-front-end/issues), and feature requests are welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project please give a star.
+Thanks in advance.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Thank you to all my colleagues who always inspire me to more than my best.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+**What did you learn?**
+
+I learned how to set up a full-stack project template using Ruby on Rails, React.js, Redux, PostgreSQL, and Webpack, which is very important foundational knowledge for understanding more about these technologies and their interplay.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
